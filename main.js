@@ -8,6 +8,8 @@
  * 
  */
 
+/* While loop version */
+
 console.log ("Solution using the while loop:");
 
 const battleField = `tree 💣️ tree way river way path secret-path
@@ -27,6 +29,7 @@ while (true) {
   i = foundPos + 1;
 }
 
+/* For loop version */
 
 console.log ("Solution using the for loop:");
 
