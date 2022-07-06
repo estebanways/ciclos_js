@@ -39,12 +39,12 @@ bullet 💣️ granade tank airplane helicopter 💣️ dog tree
 kid mother dog dog 💣️ street 💣️ mines`;
 */
 
-let battleField = `soldier M M rifle M`;
+const battleField = `soldier M M rifle M`;
 
 /* Lenght of the battleField */
 console.log( battleField.length );
 
-mine = 'M';
+const mine = 'M';
 
 for (let i = 0; i < battleField.length; i++) {
   var foundPos = battleField.indexOf(mine, i);
