@@ -23,7 +23,7 @@ while (true) {
   let foundPos = battleField.indexOf(mine, i);
   if (foundPos == -1) break; // -1 = first pos from right to left
 
-  console.log(`There mine after the position: ${foundPos} 💣️`);
+  console.log(`There is a mine after the position: ${foundPos} 💣️`);
   i = foundPos + 1;
 }
 
@@ -32,8 +32,8 @@ console.log ("Solution using the for loop:");
 
 /*
 Every emoji holds more than 1 char position, so this long
-string requires more emoji management than .indexOf():
-let battleField = `tree tree way river way path secret-path
+string requires more emoji management than just .indexOf():
+const battleField = `tree tree way river way path secret-path
 💣️, car, cat cat person, soldier 💣️ mercenary, bullet tree
 bullet 💣️ granade tank airplane helicopter 💣️ dog tree
 kid mother dog dog 💣️ street 💣️ mines`;
